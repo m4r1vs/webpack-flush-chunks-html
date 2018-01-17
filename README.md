@@ -1,16 +1,16 @@
 <h1 align="center">
   Webpack Flush Chunks HTML 🚽
 </h1>
-<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
-	<img src="https://img.shields.io/npm/v/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
-</a>
-<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
-	<img src="https://img.shields.io/npm/dm/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
-</a>
-<a href="https://oss.ninja/mit/m4r1vs">
-	<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
-</a><br />
 <div align="center">
+	<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
+		<img src="https://img.shields.io/npm/v/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
+	</a>
+	<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
+		<img src="https://img.shields.io/npm/dm/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
+	</a>
+	<a href="https://oss.ninja/mit/m4r1vs">
+		<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
+	</a><br />
   <strong>This plugin for webpack gets all bundled CSS chunks and injects them globally into <code>window.__CSS_CHUNKS__</code> for <a href="https://www.npmjs.com/package/babel-plugin-dual-import"><code>babel-plugin-dual-import</code></a> to be read:</strong>
 </div>
 <div align="center">
