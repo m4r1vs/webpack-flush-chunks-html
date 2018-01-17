@@ -42,5 +42,6 @@ You can pass following options to the plugin:
 - `extensions`: The file extensions to be included (default: `['css']`).
 - `excludedChunks`: chunks to be excluded (default: `['main'])`.
 - `variable`: In case you want to append the files to a different variable (default: `__CSS_CHUNKS__`).
-- `inject`: `'head' | 'body'` Where to inject the `<script></script>` in the html (default: `body`).
-- `log`: `true | false` if `true` errors and information will be logged (default: `false`).
+- `inject`: `'head' | 'body'` Where to inject the `<script></script>` in the html (default: `body`). But can also be another HTML element, a warning will be thrown though.
+- `log`: `true | false` if `true`  debug information will be logged (default: `false`).
+- `warn`: `true | false` if `true` warnings will be logged (default: `true`)
