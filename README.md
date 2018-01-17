@@ -2,7 +2,7 @@
   Webpack Flush Chunks HTML 🚽
 </h1>
 <div align="center">
-  <strong>This plugin for webpack gets all bundled CSS chunks and injects them globally into <code>window.__CSS_CHUNKS__</code> for <a href="https://www.npmjs.com/package/babel-plugin-dual-import"><code>babel-plugin-dual-import</code></a> to be read:</strong>
+  <strong>This plugin for webpack gets all bundled CSS chunks and injects them globally into <code>window.__CSS_CHUNKS__</code> for <a href="https://www.npmjs.com/package/babel-plugin-dual-import"><code>babel-plugin-dual-import</code></a> to be read:</strong><br />
 	<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
     <img src="https://img.shields.io/npm/v/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
   </a>
@@ -13,7 +13,6 @@
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
   </a>
 </div>
-<br />
 <div align="center">
   <sub>&lt;coded/&gt; with ❤︎ and ☕ by <a href="https://niveri.me">Marius Niveri</a><br />
 </div>
