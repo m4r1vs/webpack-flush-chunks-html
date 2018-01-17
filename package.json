@@ -4,11 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/m4r1vs/webpack-flush-chunks-html",
   "author": "Marius Niveri <marius.niveri@gmail.com>",
+  "description": "This plugin for webpack gets all bundled CSS chunks and injects them globally into window.__CSS_CHUNKS__",
   "tags": [
     "webpack",
     "webpack plugin",
     "dynamic css",
     "css"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-plugin-dual-import": "1.x",
+    "html-webpack-plugin": "2.x"
+  }
 }
