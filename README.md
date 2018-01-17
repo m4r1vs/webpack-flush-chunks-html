@@ -13,6 +13,7 @@
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
   </a>
 </div>
+<br />
 <div align="center">
   <sub>&lt;coded/&gt; with ❤︎ and ☕ by <a href="https://niveri.me">Marius Niveri</a><br />
 </div>
