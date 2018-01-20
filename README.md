@@ -3,10 +3,10 @@
 </h1>
 <div align="center">
 	<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
-		<img src="https://img.shields.io/npm/v/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
+		<img src="https://img.shields.io/npm/v/webpack-flush-chunks-html.svg?style=for-the-badge" alt="NPM Version" />
 	</a>
 	<a href="https://www.npmjs.com/package/webpack-flush-chunks-html">
-		<img src="https://img.shields.io/npm/dm/webpack-flush-chunks-html.svg?style=for-the-badge" alt="version" />
+		<img src="https://img.shields.io/npm/dm/webpack-flush-chunks-html.svg?style=for-the-badge" alt="NPM Downloads" />
 	</a>
 	<a href="https://oss.ninja/mit/m4r1vs">
 		<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
