@@ -43,7 +43,7 @@ FlushChunksWebpackPlugin.prototype.apply = function (compiler) {
 				if (this.options.extensions.includes(file.split('.').pop())) {
 					fileList.push(`"${chunk.name}": "/${file}"`)
 					logger(`added file "${file}" from "${chunk.name}" to file list`)
-				} else logger(`skipped file "${file}" from "${chunk.name}" because "${file.split('.').pop()}" is part of options.extensions`)
+				} else logger(`skipped file "${file}" from "${chunk.name}" because "${file.split('.').pop()}" is not part of options.extensions`)
 			})
 		} else logger(`skipped chunk "${chunk.name}" because it matches options.excludedChunks`)
 	}
@@ -65,7 +65,7 @@ FlushChunksWebpackPlugin.prototype.apply = function (compiler) {
 				.replace(/ /g, '')
 
 			// check if options.inject is good:
-			if (this.options.inject !== ('body' || 'head')) logWarning(`options.inject is "${this.options.inject}" which is neither "body" nor "head", hope you know what you are doing.`)
+			if (this.options.inject !== ('body' || 'head')) logWarning(`options.inject is "${this.options.inject}" which is neither "body" nor "head", hope you know what you are doing. (Switch options.warn to false to hide this message)`)
 
 			// inject JS
 			htmlPluginData.html = htmlPluginData.html.replace(`</${this.options.inject}>`, output + `</${this.options.inject}>`)
