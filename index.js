@@ -14,7 +14,7 @@ function FlushChunksWebpackPlugin(options = {}) {
 }
 
 function formatFile(file){
-    return file.replace(/\/{2,}/g,'/')
+    return file.replace(/[^:]\/{2,}/g,'/')
 }
 
 FlushChunksWebpackPlugin.prototype.apply = function (compiler) {
