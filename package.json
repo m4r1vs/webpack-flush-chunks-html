@@ -1,6 +1,6 @@
 {
   "name": "webpack-flush-chunks-html",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "https://github.com/m4r1vs/webpack-flush-chunks-html",
   "author": "Marius Niveri <marius.niveri@gmail.com>",
