@@ -76,7 +76,6 @@ FlushChunksWebpackPlugin.prototype.apply = function (compiler) {
 
             // inject JS
             htmlPluginData.html = htmlPluginData.html.replace(`</${this.options.inject}>`, output + `</${this.options.inject}>`)
-            next(null, htmlPluginData)
         })
     })
 }
